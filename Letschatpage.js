@@ -42,7 +42,8 @@ function updateLike(messageId) {
     })
 }
 function send() {
-    if (msg == "") {
+    messageText = document.getElementById("msg").value;
+    if (messageText == "") {
 
     } else {
     msg = document.getElementById("msg").value;
